@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const loader = document.getElementById('loader');
 
     // قائمة الـ IDs المسموح بها (أضف أرقامك هنا)
-    const WHITELIST = ["1527834831",
-                       "111111110",
-                       "1527847567",
-                       "1527843551",
-
+    const WHITELIST = [
+        "1527834831",
+        "111111110",
+        "1527847567",
+        "1527843551",
     ];
 
     input.addEventListener('input', () => {
@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
