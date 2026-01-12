@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btn.addEventListener('click', () => {
         const val = input.value.trim();
-        if (val.length !== 9 && val.length !== 11) {
+        if (val.length !== 9 && val.length !== 10) {
             msg.textContent = "يجب إدخال 9 أو 11 رقماً";
             msg.style.display = 'block';
             return;
@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
